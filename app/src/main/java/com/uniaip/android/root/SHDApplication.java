@@ -32,7 +32,7 @@ public class SHDApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        SDKInitializer.initialize(getApplicationContext());
+//        SDKInitializer.initialize(getApplicationContext());
         AppCtx = getApplicationContext();
         photoPath = Environment.getExternalStorageDirectory().getPath() + "/shdian/";
         if (!ONLINE)
