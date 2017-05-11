@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appBg" format="reference" />
+    <attr name="textLight" format="reference" />
+    <attr name="titleBg" format="reference" />
+
+</resources>

@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">少花点</string>
+    <string name="dl_progress">正在获取数据&#8230;</string>
+    <string name="error_text">错误。。。</string>
+
+
+    <string name="main_text1">首页</string>
+    <string name="main_text2">活动吧</string>
+    <string name="main_text3">消息</string>
+    <string name="main_text4">我的</string>
+
+    <string name="title_text1">商家海报</string>
+    <string name="title_text2">更多</string>
+    <string name="title_text3">登录</string>
+    <string name="title_text4">注册</string>
+    <string name="title_text5">找回密码</string>
+    <string name="title_text6">输入验证码</string>
+    <string name="title_text7">我的</string>
+    <string name="title_text8">设置</string>
+
+    <string name="text3">完成</string>
+    <string name="text4">补贴记录</string>
+    <string name="text5">消费补贴</string>
+    <string name="text6">消费补贴记录</string>
+
+    <string name="item_text1">我的红包</string>
+    <string name="item_text2">套餐订单</string>
+    <string name="item_text3">数据收藏</string>
+    <string name="item_text4">意见反馈</string>
+    <string name="item_text5">关于我们</string>
+    <string name="item_text6">消息提示</string>
+    <string name="item_text7">重置登录密码</string>
+    <string name="item_text8">重置支付密码</string>
+    <string name="item_text9">地址管理</string>
+    <string name="item_text10">清除缓存</string>
+    <string name="item_text11">检测新版本</string>
+
+    <string name="login_text4">请输入正确的手机号码</string>
+    <string name="login_text5">账号或密码错误</string>
+
+
+    <string name="common_text39">补贴详情</string>
+
+    <string name="img_progress">正在上传数据&#8230;</string>
+
+
+    <string name="common_text21">消费商家</string>
+    <string name="common_text22">消费地点</string>
+    <string name="common_text23">消费金额</string>
+    <string name="common_text24">消费时间</string>
+    <string name="common_text25">消费补贴</string>
+    <string name="common_text29">确认上传</string>
+    <string name="common_text30">今日还可上传</string>
+    <string name="common_text31">次</string>
+    <string name="common_text61">应得福利</string>
+    <string name="common_text62">消费类型</string>
+    <string name="common_text63">补贴须知</string>
+    <string name="common_text79">请选择消费地点</string>
+    <string name="common_text80">请填写消费商家</string>
+    <string name="common_text88">金额不能超过</string>
+    <string name="common_text89">请选择消费类型</string>
+    <string name="common_text92">消费金额需≥20元</string>
+    <string name="common_text98">请添加需要补贴的小票</string>
+    <string name="common_text110">立刻购买</string>
+
+    <string name="with_text1">当前余额 </string>
+    <string name="with_textyh">银行卡号</string>
+    <string name="common_text91">您今日上传已达3次</string>
+
+    <string name="me_text23">当前状态</string>
+    <string name="me_text24">未通过原因</string>
+
+
+
+
+    <string name="hint_text1">请输入手机号</string>
+    <string name="hint_text2">请输入密码</string>
+    <string name="hint_text3">请填写本人手机号码</string>
+    <string name="hint_text4">填写邀请人的手机号码</string>
+    <string name="hint_text5">请输入验证码</string>
+
+    <string name="btn_text1">微信登录</string>
+    <string name="btn_text2">立即注册</string>
+    <string name="btn_text3">忘记密码？</string>
+    <string name="btn_text4">老用户</string>
+    <string name="btn_text5">获取验证码</string>
+    <string name="btn_text6">获取验证码</string>
+    <string name="btn_text7">注销账号</string>
+
+</resources>

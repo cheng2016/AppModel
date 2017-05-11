@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/v_fitsSystemWindows"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_main_title" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/lay_upl_region1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/bg_white1"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/common_text22" />
+
+                        <TextView
+                            android:id="@+id/tv_inv_place"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="请选择消费地点"
+                            android:maxLines="1"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/SplitLine"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/common_text21" />
+
+                        <EditText
+                            android:id="@+id/et_inv_business"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="请输入商家名称"
+                            android:maxLines="1"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/SplitLine"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/common_text62" />
+
+                        <TextView
+                            android:id="@+id/tv_inv_type"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="请选择消费类型"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/SplitLine"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/common_text23" />
+
+                        <EditText
+                            android:id="@+id/tv_inv_con"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="金额范围(0-3000)"
+                            android:inputType="numberDecimal"
+                            android:maxLength="9"
+                            android:maxLines="1"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/SplitLine"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp">
+
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/common_text24" />
+
+                        <TextView
+                            android:id="@+id/tv_inv_date"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:paddingBottom="12dp"
+                            android:paddingTop="12dp"
+                            android:text="今天" />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/SplitLine"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="12dp">
+
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/common_text61" />
+
+                        <TextView
+                            android:id="@+id/tv_inv_integral"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:gravity="right"
+                            android:hint="自动计算..." />
+                    </LinearLayout>
+
+                    <View
+                        style="@style/SplitLine"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="12dp">
+
+                        <TextView
+                            style="@style/me_text_style"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/with_textyh" />
+
+                        <TextView
+                            android:id="@+id/tv_inv_bank_card"
+                            style="@style/input_text_style"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_inv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/bg_white1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/lay_inv_imgs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:id="@+id/rlay_inv_img1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="8dp">
+
+
+                            <ImageView
+                                android:id="@+id/iv_inv_img1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="6dp"
+                                android:background="@drawable/bg_tm1"
+                                android:scaleType="centerCrop" />
+
+                            <TextView
+                                android:id="@+id/iv_inv_add1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:drawablePadding="5dp"
+                                android:drawableTop="@drawable/ic_camera"
+                                android:text="添加小票"
+                                android:textSize="@dimen/text_size12" />
+
+                            <ImageView
+                                android:id="@+id/iv_inv_img_x1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/ic_close"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rlay_inv_img2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="8dp">
+
+
+                            <ImageView
+                                android:id="@+id/iv_inv_img2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="6dp"
+                                android:background="@drawable/bg_tm1"
+                                android:scaleType="centerCrop" />
+
+                            <TextView
+                                android:id="@+id/iv_inv_add2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:drawablePadding="5dp"
+                                android:drawableTop="@drawable/ic_camera"
+                                android:text="添加小票"
+                                android:textSize="@dimen/text_size12" />
+
+                            <ImageView
+                                android:id="@+id/iv_inv_img_x2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/ic_close"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/rlay_inv_img3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:padding="8dp">
+
+
+                            <ImageView
+                                android:id="@+id/iv_inv_img3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_margin="6dp"
+                                android:background="@drawable/bg_tm1"
+                                android:scaleType="centerCrop" />
+
+                            <TextView
+                                android:id="@+id/iv_inv_add3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:drawablePadding="5dp"
+                                android:drawableTop="@drawable/ic_camera"
+                                android:text="添加小票"
+                                android:textSize="@dimen/text_size12" />
+
+                            <ImageView
+                                android:id="@+id/iv_inv_img_x3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:background="@android:color/transparent"
+                                android:src="@drawable/ic_close"
+                                android:visibility="gone" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingBottom="8dp">
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_inv_upload_num"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="@string/common_text30"
+                        android:textSize="@dimen/text_size12" />
+
+                    <TextView
+                        android:id="@+id/tv_inv_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="2dp"
+                        android:paddingRight="2dp"
+                        android:text="3"
+                        android:textColor="@color/text_color9"
+                        android:textSize="@dimen/text_size12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/common_text31"
+                        android:layout_marginRight="15dp"
+                        android:textSize="@dimen/text_size12" />
+
+                    <ImageView
+                        android:id="@+id/img_help_msg"
+                        android:background="@drawable/ic_help_c"
+                        android:layout_marginRight="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <include
+                    android:id="@+id/in_inv_button"
+                    layout="@layout/view_button" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

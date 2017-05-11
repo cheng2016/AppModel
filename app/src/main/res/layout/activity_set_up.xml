@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@drawable/selector_agr_choice"
+                android:paddingBottom="12dp"
+                android:paddingTop="12dp"
+                android:text="@string/item_text6"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size16" />
+
+            <View style="@style/SplitLine" />
+
+            <TextView
+                style="@style/MeTextStyle"
+                android:text="@string/item_text7" />
+
+            <View style="@style/SplitLine" />
+
+            <TextView
+                style="@style/MeTextStyle"
+                android:text="@string/item_text8" />
+
+            <View style="@style/SplitLine" />
+
+            <TextView
+                style="@style/MeTextStyle"
+                android:text="@string/item_text9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:paddingBottom="12dp"
+                    android:paddingTop="12dp"
+                    android:text="@string/item_text10"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="8dp"
+                    android:text="36MB"
+                    android:textColor="@color/text_color1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_right" />
+            </LinearLayout>
+
+            <View style="@style/SplitLine" />
+
+            <TextView
+                style="@style/MeTextStyle"
+                android:text="@string/item_text11" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_view_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/click_determine_bg"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/btn_text7"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size18" />
+</RelativeLayout>

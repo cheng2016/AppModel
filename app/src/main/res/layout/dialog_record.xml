@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/record_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/record_Del"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_help"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:text="删除"
+            android:textColor="@color/text_color1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/record_Back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_help"
+            android:drawablePadding="5dp"
+            android:padding="10dp"
+            android:text="撤销"
+            android:textColor="@color/text_color1"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</LinearLayout>

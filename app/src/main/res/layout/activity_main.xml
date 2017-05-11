@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appBg"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <fragment
+            android:id="@+id/f_home"
+            android:name="com.uniaip.android.home.fragments.HomeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_home" />
+
+        <fragment
+            android:id="@+id/f_act"
+            android:name="com.uniaip.android.huodong.fragment.ActFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_act" />
+
+        <fragment
+            android:id="@+id/f_news"
+            android:name="com.uniaip.android.news.fragment.NewsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_news" />
+
+        <fragment
+            android:id="@+id/f_me"
+            android:name="com.uniaip.android.mine.fragment.MeFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_me" />
+
+    </FrameLayout>
+
+    <View style="@style/SplitLine" />
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_popularized"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/selector_tab_me"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingTop="6dp"
+            android:text="@string/main_text1"
+            android:textColor="@color/text_tab_color"
+            android:textSize="@dimen/text_size12" />
+
+        <RadioButton
+            android:id="@+id/rb_act"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_me"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingTop="6dp"
+            android:text="@string/main_text2"
+            android:textColor="@color/text_tab_color"
+            android:textSize="@dimen/text_size12" />
+        <RadioButton
+            android:id="@+id/rb_news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_me"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingTop="6dp"
+            android:text="@string/main_text3"
+            android:textColor="@color/text_tab_color"
+            android:textSize="@dimen/text_size12" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_tab_me"
+            android:gravity="center"
+            android:paddingBottom="2dp"
+            android:paddingTop="6dp"
+            android:text="@string/main_text4"
+            android:textColor="@color/text_tab_color"
+            android:textSize="@dimen/text_size12" />
+    </RadioGroup>
+</LinearLayout>
